@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/b0a4a992bb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <title>food website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-bs-target=".navbar" data-bs-spy="scroll" data-bs-offset="100">
+    <header>
+      <nav
+        id="navigation-wrapper"
+        class="navbar navbar-expand-lg navigation-wrapper"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="logo" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#explore">Explore Foods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Reviews</a>
+              </li>
+              <li>
+                <a href="" class="main-btn">1200 345 123</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="container-fluid px-0 top-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <h1>
+                UNLIMITED <br />
+                MEDIUM <span>PIZZAS</span>
+              </h1>
+              <h2>Medium 2-topping* pizza</h2>
+              <p>*Additional charge for premium minium of 2 required</p>
+
+              <div class="mt-4">
+                <button class="main-btn">
+                  Order Now <i class="fas fa-shopping-basket ps-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-menu p-4">
+      <div class="container text-center">
+        <h2 class="p-4">our menu</h2>
+        <div class="row">
+          <div class="col-6 col-sm-2 mb-4 mb-lg-4">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#">
+                  <img src="./images/img/category1.png" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">Pizza</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-4">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#">
+                  <img src="./images/img/category2.png" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">Sauces</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-4">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#">
+                  <img src="./images/img/category3.png" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">Combo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-4">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#">
+                  <img src="./images/img/category4.png" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">Kids Menus</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-4">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#">
+                  <img src="./images/img/category5.png" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">chicken</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-4">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#">
+                  <img src="./images/img/category6.png" class="img-fluid" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">Box</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-section wrapper">
+        <div class="container">
+          <div class="col-sm-12 text-center mb-4">
+            <h2>About Us</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident autem pariatur iure id. Sit dignissimos ut vitae illo explicabo nobis?</p>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+              <div class="card border-0">
+                <img src="./images/img/img-1.png" class="img-fluid" />
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-12 text-sec">
+              <h2>
+                we pride ourself on making real food from the best ingredients
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis ea natus sit tenetur blanditiis libero assumenda!
+                Asperiores est eos consequuntur? Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Quasi, nostrum?
+              </p>
+              <button class="main-btn mt-4">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---- -->
+
+        <div class="container food-type">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+              <h2>
+                we make everything by hand with the best possible ingredients
+              </h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Suscipit repellendus neque mollitia! Totam repellat, debitis
+                earum eius dolor nulla, ex corporis odio quisquam suscipit alias
+                enim nihil, necessitatibus ipsam dolore!
+              </p>
+
+              <button class="main-btn mt-4">Learn More</button>
+            </div>
+
+            <div class="col-lg-7 col-md-12">
+              <div class="card border-0">
+                <img src="./images/img/img-2.png" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="explore">
+      <div class="explore-food wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content text-center">
+                <h2>Explore Our food</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus atque ab officiis nisi sunt fuga, deleniti, similique
+                  maxime harum culpa blanditiis consectetur. Id maxime accusamus
+                  doloribus expedita optio temporibus aut?Lorem ipsum, dolor sit
+                  amet consectetur adipisicing elit. Debitis, illo?Lorem ipsum
+                  dolor sit amet.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row pt-5">
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card border">
+                <img src="./images/img/img-4.jpg" class="img-fluid" />
+
+                <div class="p-3">
+                  <h5>10 Reasons To Do Digital Detox Challenge</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni cum expedita labore molestiae vitae excepturi officiis
+                    rem totam consequuntur sapiente.
+                  </p>
+                  <button class="mt-2 main-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card border">
+                <img src="./images/img/img-5.jpg" class="img-fluid" />
+
+                <div class="p-3">
+                  <h5>
+                    The Ultimate Hangover burger : Egg in a hole burger grilled
+                    cheese
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni cum expedita labore molestiae vitae excepturi officiis
+                    rem totam consequuntur sapiente.
+                  </p>
+                  <button class="mt-2 main-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card border">
+                <img src="./images/img/img-3.jpg" class="img-fluid" />
+
+                <div class="p-3">
+                  <h5>Treditional Soft pretzels with beer cheese</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni cum expedita labore molestiae vitae excepturi officiis
+                    rem totam consequuntur sapiente.
+                  </p>
+                  <button class="mt-2 main-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section id="testimonial">
+      <div class="wrapper testimonial-section">
+        <div class="container text-center">
+          <div class="text-center pb-4">
+            <h2>Testimonial</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 col-lg-10 offset-lg-1">
+              <!-- <div
+                id="carouselExampleDark"
+                class="carousel carousel-dark slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="carousel-caption">
+                      <img
+                        src="./images/review/review-1.jpg"
+                        class="w-100"
+                        alt="..."
+                      />
+
+                      <p>
+                        Some representative placeholder content for the first
+                        slide.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="1000">
+                    <div class="carousel-caption">
+                      <img
+                        src="./images/review/review-2.jpg"
+                        class="w-100"
+                        alt="..."
+                      />
+
+                      
+                      <p>
+                        Some representative placeholder content for the second
+                        slide.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div> -->
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./images/review/review-1.jpg" class="img-fluid" alt="Slide 1">
+                        <div class="carousel-caption">
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="./images/review/review-2.jpg" class="img-fluid" alt="Slide 2">
+                        <div class="carousel-caption">
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="footer pt-5 ">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class=" col-md-6 text-center  ">
+              <div class="footer-social pb-4 text-center">
+                <a href=""> <i class="fa-brands fa-facebook"></i> </a>
+                <a href=""> <i class="fa-brands fa-twitter"></i> </a>
+                <a href=""> <i class="fa-brands fa-youtube"></i> </a>
+                <a href=""> <i class="fa-brands fa-linkedin"></i> </a>
+                <a href=""> <i class="fa-brands fa-instagram"></i> </a>
+                <a href=""> <i class="fa-brands fa-whatsapp"></i> </a>
+              </div>
+          </div>
+          <div class="col-md-6 ">
+            <form  class="newsletter">
+              <div class="d-flex">
+                <input type="email" class="form-control" placeholder="Email Address Here">
+                <button class="main-btn" type="submit">Subcribe</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-12 ">
+            <div class="footer-copy">
+              <div class="copy-right text-center pt-5">
+                <p class="text-light">&#9400; 2024. PIZZA . ALL RIGHTS ARE RESERVED</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script></script>
+  </body>
+</html>
